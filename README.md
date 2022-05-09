@@ -2,7 +2,7 @@
 
 build
 docker build -t reverse_proxy .
-docker image
+docker images
 docker login --username=wombach
 docker tag fabf8e81e3c0 wombach/docker-reverse-proxy:1
 docker push wombach/docker-reverse-proxy:1
