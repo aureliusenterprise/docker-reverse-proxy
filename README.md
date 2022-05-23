@@ -16,3 +16,5 @@ connect with web browser to http://127.0.0.1:8080/
 
 The docker container can consume a enviornment variable NAMESPACE.
 The script /usr/local/apache2/init/init_index_html.sh uses this variable to set the base url of the index.html and prefixes the value of the variable to /atlas/
+
+Please note the atlas URL will NOT work since the base url is not set properly and the appliction requires keycloack. A proper setup is described in the helm chart wombach/helm-governance.
