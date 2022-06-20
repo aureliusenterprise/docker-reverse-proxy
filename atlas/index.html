@@ -2,12 +2,64 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Atlas</title>
+    <title>Models4Insight</title>
     <base href="/" />
+    <meta http-equiv="X-UA-Compatible" content="IE=11" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#4e8ef7" />
+    <!-- Models4Insight -->
+    <script async>
+      const LOGO_ASCII = [
+        '%c  __  __           _      _     _  _ %c ___           _       _     _   ',
+        '%c |  \\/  | ___   __| | ___| |___| || |%c|_ _|_ __  ___(_) __ _| |__ | |_ ',
+        "%c | |\\/| |/ _ \\ / _` |/ _ \\ / __| || |_%c| || '_ \\/ __| |/ _` | '_ \\| __|",
+        '%c | |  | | (_) | (_| |  __/ \\__ \\__   _%c| || | | \\__ \\ | (_| | | | | |_ ',
+        '%c |_|  |_|\\___/ \\__,_|\\___|_|___/  |_|%c|___|_| |_|___/_|\\__, |_| |_|\\__|',
+        '%c                                     %c                 |___/           '
+      ];
+      const LOGO_COLORS = ['#3db4e5', '#263879'];
+      console.log(
+        `${LOGO_ASCII.join('\n')}`,
+        ...Array.from(
+          { length: LOGO_ASCII.length * 2 },
+          (_, i) => `color: ${LOGO_COLORS[i % 2]}`
+        )
+      );
+    </script>
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+    </script>
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
-  </head>
-  <body>
-    <models4insight-root></models4insight-root>
-  <script src="runtime-es2015.js" type="module"></script><script src="runtime-es5.js" nomodule defer></script><script src="polyfills-es5.js" nomodule defer></script><script src="polyfills-es2015.js" type="module"></script><script src="styles-es2015.js" type="module"></script><script src="styles-es5.js" nomodule defer></script><script src="vendor-es2015.js" type="module"></script><script src="vendor-es5.js" nomodule defer></script><script src="main-es2015.js" type="module"></script><script src="main-es5.js" nomodule defer></script></body>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <meta name="theme-color" content="#1976d2" />
+  <link rel="stylesheet" href="styles.c02cc50961d4117e6ac5.css"></head>
+  <body class="has-navbar-fixed-top">
+    <!--[if lt IE 10]>
+      <p>
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="http://browsehappy.com/">upgrade your browser</a> to improve
+        your experience.
+      </p>
+    <![endif]-->
+    <noscript>
+      <p>
+        This page requires JavaScript to work properly. Please enable JavaScript
+        in your browser.
+      </p>
+    </noscript>
+    <models4insight-root>
+      <div
+        style="display: flex; height: 80vh; width: 100vw; justify-content: center; align-items: center;"
+      >
+        <img class="image app-loader" src="assets/m4i-icon-notext-vector.svg" />
+      </div>
+    </models4insight-root>
+  <script src="runtime-es2015.ad4a95b80631a5bdc767.js" type="module"></script><script src="runtime-es5.ad4a95b80631a5bdc767.js" nomodule defer></script><script src="polyfills-es5.4272c9b2a06d5677edcf.js" nomodule defer></script><script src="polyfills-es2015.1d8215dfbff5a3c1e42d.js" type="module"></script><script src="main-es2015.5ce7f2aa278f2f2d6cf1.js" type="module"></script><script src="main-es5.5ce7f2aa278f2f2d6cf1.js" nomodule defer></script></body>
 </html>

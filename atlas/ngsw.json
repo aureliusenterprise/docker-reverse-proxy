@@ -1,0 +1,102 @@
+{
+  "configVersion": 1,
+  "timestamp": 1655106938872,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/5-es2015.09e1fb447c7fa8be8a16.js",
+        "/5-es5.09e1fb447c7fa8be8a16.js",
+        "/6-es2015.5ee0c571f22556fcef85.js",
+        "/6-es5.5ee0c571f22556fcef85.js",
+        "/7-es2015.905a640649019276c10d.js",
+        "/7-es5.905a640649019276c10d.js",
+        "/favicon.ico",
+        "/index.html",
+        "/main-es2015.5ce7f2aa278f2f2d6cf1.js",
+        "/main-es5.5ce7f2aa278f2f2d6cf1.js",
+        "/polyfills-es2015.1d8215dfbff5a3c1e42d.js",
+        "/polyfills-es5.4272c9b2a06d5677edcf.js",
+        "/runtime-es2015.ad4a95b80631a5bdc767.js",
+        "/runtime-es5.ad4a95b80631a5bdc767.js",
+        "/styles.c02cc50961d4117e6ac5.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/d2m-icon.png",
+        "/assets/d2m-logo-50.png",
+        "/assets/m4i-analytics-beta.png",
+        "/assets/m4i-analytics-logo-50.png",
+        "/assets/m4i-analytics-logo.png",
+        "/assets/m4i-data2model-beta.png",
+        "/assets/m4i-data2model-logo.png",
+        "/assets/m4i-icon-fulltext.png",
+        "/assets/m4i-icon-notext-vector.svg",
+        "/assets/m4i-icon-notext.svg",
+        "/assets/m4i-icon.png",
+        "/assets/m4i-logo-notext.png",
+        "/assets/m4i-logo.png",
+        "/assets/m4i-platform-logo.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/5-es2015.09e1fb447c7fa8be8a16.js": "08eac6bdf2e6696a14441697371d9379284c9cc1",
+    "/5-es5.09e1fb447c7fa8be8a16.js": "c9dd0e2d929028029803cdcf81699e02a64349e3",
+    "/6-es2015.5ee0c571f22556fcef85.js": "dc5da4954ccae1a06d2f34adfe06fe3efe28fcfc",
+    "/6-es5.5ee0c571f22556fcef85.js": "f0bea01b300fa950a02238854f9c91e6c5da0d32",
+    "/7-es2015.905a640649019276c10d.js": "8d97a84e533dfda6b5333ed738bf4f8c7ddef557",
+    "/7-es5.905a640649019276c10d.js": "5d004f7baf9402facf1e5d8508a3d4695e1aa5be",
+    "/assets/d2m-icon.png": "ccfe86e0933bfe4f95032cbf539d5a0acc2f75fb",
+    "/assets/d2m-logo-50.png": "21bfa2b08aca739b98ab49550da39ef4220ecf92",
+    "/assets/m4i-analytics-beta.png": "a9d51528602b79a1b3e5bbace8989255bb1e0db6",
+    "/assets/m4i-analytics-logo-50.png": "0e20299232cc395da4849ab816165d1769d6697b",
+    "/assets/m4i-analytics-logo.png": "89a0c27c5a1518092161675a3ea8404b59fefec6",
+    "/assets/m4i-data2model-beta.png": "6ef0d894cb93b6ca99ab4d370528be0c24b2c762",
+    "/assets/m4i-data2model-logo.png": "56ca2808dda1d8c1c3cf74857e833a0b3b3e31c1",
+    "/assets/m4i-icon-fulltext.png": "2a053156dbbce3867c28adb50c26c82acd8cd2bb",
+    "/assets/m4i-icon-notext-vector.svg": "641959f225e7316e341acf73e91d8e0705109064",
+    "/assets/m4i-icon-notext.svg": "f5cc6be491483675fc8f3bba2deba33faceab674",
+    "/assets/m4i-icon.png": "656a195c6728fc52f8d08616c25f71836d2c7582",
+    "/assets/m4i-logo-notext.png": "a1794095346d55e357bd6ae0eb884a177bb3c093",
+    "/assets/m4i-logo.png": "4e543dc98d2a7747a1179e5f068d71a8cee3879a",
+    "/assets/m4i-platform-logo.png": "557378834bf275434176226fa221660401b98c9d",
+    "/favicon.ico": "58015d4f4ad8e1fe220942dfaa4703fd1f48b8e3",
+    "/index.html": "86eec68fc43126ea0f90080fd7f103bdd5ca674d",
+    "/main-es2015.5ce7f2aa278f2f2d6cf1.js": "9687980edcd33544c9083cd6d5f1f6f141a2dc3e",
+    "/main-es5.5ce7f2aa278f2f2d6cf1.js": "f85bc48578d1944a03616fb10ab4939c57992e73",
+    "/polyfills-es2015.1d8215dfbff5a3c1e42d.js": "ba68f4f816ecf7320005a50ff38165d480561428",
+    "/polyfills-es5.4272c9b2a06d5677edcf.js": "cb9d9053ba81ad276317f52f572d1acf72f60e6c",
+    "/runtime-es2015.ad4a95b80631a5bdc767.js": "89fb2f56361f20a116f5bdaad642905ebcf42659",
+    "/runtime-es5.ad4a95b80631a5bdc767.js": "cee40d61bdae7834b28cde8b952efc0c425be7fa",
+    "/styles.c02cc50961d4117e6ac5.css": "8ecd8ac5e5d056b7bb713d8eb784cbcc00cfffda"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
