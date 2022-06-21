@@ -8,6 +8,6 @@ if [[ -v NAMESPACE ]]; then
     #mv "$1" /usr/local/apache2/atlas/main-es.h
     mkdir /usr/local/apache2/bak/
     cp /usr/local/apache2/atlas/main*.js /usr/local/apache2/bak/
-    sed -i "s/atlas\.appSearchToken/$ATLAS_APP_SEARCH_TOKEN/g" /usr/local/apache2/atlas/main*.js
-    sed -i "s/keycloak\.url/\/$NAMESPACE\/auth/g" /usr/local/apache2/atlas/main*.js
+    sed -i "s/atlas:{appSearchToken:\"[a-z0-9\-]*\"/atlas:{appSearchToken:\"$ATLAS_APP_SEARCH_TOKEN\"/g" /usr/local/apache2/atlas/main*.js
+    sed -i "s/url:\"\/auth\"/url:\"\/$NAMESPACE\/auth\"/g" /usr/local/apache2/atlas/main*.js
 fi

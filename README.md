@@ -6,8 +6,8 @@ build
 docker build -t reverse_proxy .
 docker images
 docker login --username=wombach
-docker tag fabf8e81e3c0 wombach/docker-reverse-proxy:1.0.8
-docker push wombach/docker-reverse-proxy:1.0.8
+docker tag fabf8e81e3c0 wombach/docker-reverse-proxy:1.0.9
+docker push wombach/docker-reverse-proxy:1.0.9
 
 run
 docker run -dit -p 8080:80 reverse_proxy
