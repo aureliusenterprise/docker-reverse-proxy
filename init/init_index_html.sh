@@ -7,7 +7,7 @@ if [[ -v NAMESPACE ]]; then
     #set -- /usr/local/apache2/atlas/main-es*.js
     #mv "$1" /usr/local/apache2/atlas/main-es.h
     mkdir /usr/local/apache2/bak/
-    cp /usr/local/apache2/atlas/main-es*.js /usr/local/apache2/bak/
-    sed -i "s/url:'\/auth'/url:'\/$NAMESPACE\/auth'/g" /usr/local/apache2/atlas/main-es*.js
-    sed -i "s/url: '\/auth'/url:'\/$NAMESPACE\/auth'/g" /usr/local/apache2/atlas/main-es*.js
+    cp /usr/local/apache2/atlas/main*.js /usr/local/apache2/bak/
+    sed -i "s/atlas\.appSearchToken/$ATLAS_APP_SEARCH_TOKEN/g" /usr/local/apache2/atlas/main*.js
+    sed -i "s/keycloak\.url/\/$NAMESPACE\/auth/g" /usr/local/apache2/atlas/main*.js
 fi
