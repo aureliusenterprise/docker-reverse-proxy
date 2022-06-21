@@ -1,28 +1,25 @@
 {
   "configVersion": 1,
-  "timestamp": 1655106938872,
+  "timestamp": 1655792002961,
   "index": "/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
       "urls": [
-        "/5-es2015.09e1fb447c7fa8be8a16.js",
-        "/5-es5.09e1fb447c7fa8be8a16.js",
-        "/6-es2015.5ee0c571f22556fcef85.js",
-        "/6-es5.5ee0c571f22556fcef85.js",
-        "/7-es2015.905a640649019276c10d.js",
-        "/7-es5.905a640649019276c10d.js",
+        "/384.f872b3cfca00f9a7.js",
+        "/579.0f7309d9b79b90ce.js",
+        "/959.15e49feda2b63a3c.js",
         "/favicon.ico",
         "/index.html",
-        "/main-es2015.5ce7f2aa278f2f2d6cf1.js",
-        "/main-es5.5ce7f2aa278f2f2d6cf1.js",
-        "/polyfills-es2015.1d8215dfbff5a3c1e42d.js",
-        "/polyfills-es5.4272c9b2a06d5677edcf.js",
-        "/runtime-es2015.ad4a95b80631a5bdc767.js",
-        "/runtime-es5.ad4a95b80631a5bdc767.js",
-        "/styles.c02cc50961d4117e6ac5.css"
+        "/main.c8e1e9e61a408725.js",
+        "/polyfills.8f4bc7cbbd362f13.js",
+        "/runtime.38ed17afd8cdedb2.js",
+        "/styles.7cf455b77d6d5dfd.css"
       ],
       "patterns": []
     },
@@ -30,6 +27,9 @@
       "name": "assets",
       "installMode": "lazy",
       "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
       "urls": [
         "/assets/d2m-icon.png",
         "/assets/d2m-logo-50.png",
@@ -51,12 +51,9 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/5-es2015.09e1fb447c7fa8be8a16.js": "08eac6bdf2e6696a14441697371d9379284c9cc1",
-    "/5-es5.09e1fb447c7fa8be8a16.js": "c9dd0e2d929028029803cdcf81699e02a64349e3",
-    "/6-es2015.5ee0c571f22556fcef85.js": "dc5da4954ccae1a06d2f34adfe06fe3efe28fcfc",
-    "/6-es5.5ee0c571f22556fcef85.js": "f0bea01b300fa950a02238854f9c91e6c5da0d32",
-    "/7-es2015.905a640649019276c10d.js": "8d97a84e533dfda6b5333ed738bf4f8c7ddef557",
-    "/7-es5.905a640649019276c10d.js": "5d004f7baf9402facf1e5d8508a3d4695e1aa5be",
+    "/384.f872b3cfca00f9a7.js": "859606d8987c4ad6039a5518e06ecab80f3c845c",
+    "/579.0f7309d9b79b90ce.js": "b7b9969191510162b04dc99ae11e6d35544a10b3",
+    "/959.15e49feda2b63a3c.js": "1f497d4184d9d6d7c8675ab64cd909c74d3d337b",
     "/assets/d2m-icon.png": "ccfe86e0933bfe4f95032cbf539d5a0acc2f75fb",
     "/assets/d2m-logo-50.png": "21bfa2b08aca739b98ab49550da39ef4220ecf92",
     "/assets/m4i-analytics-beta.png": "a9d51528602b79a1b3e5bbace8989255bb1e0db6",
@@ -72,14 +69,11 @@
     "/assets/m4i-logo.png": "4e543dc98d2a7747a1179e5f068d71a8cee3879a",
     "/assets/m4i-platform-logo.png": "557378834bf275434176226fa221660401b98c9d",
     "/favicon.ico": "58015d4f4ad8e1fe220942dfaa4703fd1f48b8e3",
-    "/index.html": "86eec68fc43126ea0f90080fd7f103bdd5ca674d",
-    "/main-es2015.5ce7f2aa278f2f2d6cf1.js": "9687980edcd33544c9083cd6d5f1f6f141a2dc3e",
-    "/main-es5.5ce7f2aa278f2f2d6cf1.js": "f85bc48578d1944a03616fb10ab4939c57992e73",
-    "/polyfills-es2015.1d8215dfbff5a3c1e42d.js": "ba68f4f816ecf7320005a50ff38165d480561428",
-    "/polyfills-es5.4272c9b2a06d5677edcf.js": "cb9d9053ba81ad276317f52f572d1acf72f60e6c",
-    "/runtime-es2015.ad4a95b80631a5bdc767.js": "89fb2f56361f20a116f5bdaad642905ebcf42659",
-    "/runtime-es5.ad4a95b80631a5bdc767.js": "cee40d61bdae7834b28cde8b952efc0c425be7fa",
-    "/styles.c02cc50961d4117e6ac5.css": "8ecd8ac5e5d056b7bb713d8eb784cbcc00cfffda"
+    "/index.html": "fa9493fd4df9734f4a86cae46ecc0b710771d2a8",
+    "/main.c8e1e9e61a408725.js": "fa6f2832dc8c67d6137a14b477980d352b329d2e",
+    "/polyfills.8f4bc7cbbd362f13.js": "bfe57bf59278d83e6284aed0289ea136d804f549",
+    "/runtime.38ed17afd8cdedb2.js": "9d988e2e940486a1bd8b9796d151baa20ff78949",
+    "/styles.7cf455b77d6d5dfd.css": "40a77bce3c6b9b99e611d990f0e523911c26baf4"
   },
   "navigationUrls": [
     {
@@ -98,5 +92,6 @@
       "positive": false,
       "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
     }
-  ]
+  ],
+  "navigationRequestStrategy": "performance"
 }
