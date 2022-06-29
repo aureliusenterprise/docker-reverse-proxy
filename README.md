@@ -19,13 +19,6 @@ The script /usr/local/apache2/init/init_index_html.sh uses this variable to set 
 
 Please note the atlas URL will NOT work since the base url is not set properly and the appliction requires keycloack. A proper setup is described in the helm chart wombach/helm-governance.
 
-Adjusting the elastic app-search key
-====================================
-The distribution does have a specific elastic app-search key encoded. To adjust the key with the right one, please use the following commands:
-
-```bash
-mv main-es5.js main-es5.js.orig
-mv main-es2015.js main-es2015.js.orig
-sed "s/search-ot1rcw3uffpojw1tz299upw1/search-zxkmwhnh49qqdgj4txtr2tqk/g" main-es5.js.orig > main-es5.js
-sed "s/search-ot1rcw3uffpojw1tz299upw1/search-zxkmwhnh49qqdgj4txtr2tqk/g" mv main-es2015.js.orig > mv main-es2015.js
-```
+The docker container expects two environment variables:
+- ATLAS_APP_SEARCH_TOKEN: which contains the search key for the elastic enterprise app-search backend
+- NAMESPACE: which is used as the base url for the frontend application
