@@ -3,6 +3,7 @@
 # docker_reverse_proxy
 
 build
+------
 docker build -t reverse_proxy .
 docker images
 docker login --username=wombach
