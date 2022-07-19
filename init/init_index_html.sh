@@ -3,9 +3,9 @@ if [[ -v NAMESPACE ]]; then
     mv /usr/local/apache2/atlas/index.html /usr/local/apache2/atlas/index.orig.html
     sed "s/<base href=\"\//<base href=\"\/$NAMESPACE\/atlas\//g" /usr/local/apache2/atlas/index.orig.html > /usr/local/apache2/atlas/index.html
     #rm -f /usr/local/apache2/atlas/index_.h
-    export ATLAS_APP_SEARCH_TOKEN=$( curl -X GET '$enterpirse_search_internal_url/api/as/v1/credentials/search-key' \
-    -H 'Content-Type: application/json' \
-    -u $elastic_username:$elastic_password | jq '.key' | sed 's/^"\(.*\)"$/\1/' )
+    export ATLAS_APP_SEARCH_TOKEN=$( curl -X GET "${ENTERPRISE_SEARCH_INTERNAL_URL}api/as/v1/credentials/search-key" \
+    -H 'Content-Type: application/json' --insecure \
+    -u $ELASTIC_USERNAME:$ELASTIC_PASSWORD | jq '.key' | sed 's/^"\(.*\)"$/\1/' )
 
     #set -- /usr/local/apache2/atlas/main-es*.js
     #mv "$1" /usr/local/apache2/atlas/main-es.h
