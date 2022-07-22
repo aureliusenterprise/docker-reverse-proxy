@@ -1,5 +1,8 @@
 #!/bin/bash
 if [[ -v NAMESPACE ]]; then
+    mv /usr/local/apache2/htdocs/index.html /usr/local/apache2/htdocs/index.orig.html
+    sed "s/<base href=\"\//<base href=\"\/$NAMESPACE\//g" /usr/local/apache2/htdocs/index.orig.html > /usr/local/apache2/htdocs/index.html
+    
     mv /usr/local/apache2/atlas/index.html /usr/local/apache2/atlas/index.orig.html
     sed "s/<base href=\"\//<base href=\"\/$NAMESPACE\/atlas\//g" /usr/local/apache2/atlas/index.orig.html > /usr/local/apache2/atlas/index.html
     #rm -f /usr/local/apache2/atlas/index_.h
