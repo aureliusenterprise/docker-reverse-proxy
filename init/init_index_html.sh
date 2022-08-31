@@ -16,4 +16,9 @@ if [[ -v NAMESPACE ]]; then
     cp /usr/local/apache2/atlas/main*.js /usr/local/apache2/bak/
     sed -i "s/atlas:{appSearchToken:\"[a-z0-9\-]*\"/atlas:{appSearchToken:\"${ATLAS_APP_SEARCH_TOKEN}\"/g" /usr/local/apache2/atlas/main*.js
     sed -i "s/url:\"\/auth\"/url:\"\/$NAMESPACE\/auth\"/g" /usr/local/apache2/atlas/main*.js
+
+    mkdir /usr/local/apache2/bak2/
+    cp /usr/local/apache2/htdocs/main*.js /usr/local/apache2/bak2/
+    sed -i "s/url:\"\/auth\"/url:\"\/$NAMESPACE\/auth\"/g" /usr/local/apache2/htdocs/main*.js
+
 fi

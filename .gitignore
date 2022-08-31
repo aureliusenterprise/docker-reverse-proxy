@@ -4,3 +4,5 @@ public-html/atlas.tar
 atlas.tar
 
 atlas.tar.bak
+
+*.tar
