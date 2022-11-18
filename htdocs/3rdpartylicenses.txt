@@ -188,10 +188,10 @@ UNLICENSED
 MIT
 
 backoff-rxjs
-MIT
+ISC
 MIT License
 
-Copyright (c) 2020 Alex Okrushko
+Copyright (c) 2018 Alex Okrushko
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
