@@ -4,14 +4,15 @@
 
 build
 ------
-docker build -t wombach/docker-reverse-proxy:1.0.9.4 .
+```
+docker build -t aureliusatlas/reverse-proxy:1.0.9.5 .
 docker images
-docker login --username=wombach
-docker push wombach/docker-reverse-proxy:1.0.9.4
+docker login --username=aureliusatlas
+docker push aureliusatlas/reverse-proxy:1.0.9.5
 
 run
 docker run -dit -p 8080:80 reverse_proxy
-
+```
 connect with web browser to http://127.0.0.1:8080/
 
 The docker container can consume a enviornment variable NAMESPACE.
